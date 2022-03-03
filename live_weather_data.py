@@ -82,7 +82,6 @@ def get_weather(lat,lng, time):
    cond = cond.json()
    condition = cond["features"][0]["properties"]["textDescription"]
    temp = cond["features"][0]["properties"]["temperature"]["value"]
-   temp=int(temp)
 
    return [condition,temp]
 
