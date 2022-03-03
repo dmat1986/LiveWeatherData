@@ -91,4 +91,4 @@ temperature=get_weather(lat,lng,time)[1]
 
 #Print the results
 print(condition)
-print(str(temperature)+" degrees celcius")
+print(str(temperature)+" degrees celsius")
